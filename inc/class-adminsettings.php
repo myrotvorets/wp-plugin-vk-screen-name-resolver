@@ -50,6 +50,7 @@ final class AdminSettings {
 				'type'         => 'password',
 				'autocomplete' => 'off',
 				'required'     => true,
+				'class'        => 'regular-text',
 			]
 		);
 	}
