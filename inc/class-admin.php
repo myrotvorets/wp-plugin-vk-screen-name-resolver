@@ -60,7 +60,7 @@ final class Admin {
 				// phpcs:ignore WordPress.Security.NonceVerification.Recommended
 				! empty( $_GET['post_type'] ) && 'criminal' === $_GET['post_type']
 				// phpcs:ignore WordPress.Security.NonceVerification.Recommended
-				|| ! empty( $_GET['post'] ) && 'criminal' === get_post_type( (int) $_GET['post'] )
+				|| ! empty( $_GET['post'] ) && is_scalar( $_GET['post'] ) && 'criminal' === get_post_type( (int) $_GET['post'] )
 			)
 		) {
 			wp_enqueue_script(
