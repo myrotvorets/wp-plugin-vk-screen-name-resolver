@@ -15,7 +15,7 @@
     "@myrotvorets/eslint-config-myrotvorets-ts": "^2.9.0",
     "@rollup/plugin-babel": "^6.0.0",
     "@wordpress/api-fetch": "^6.0.0",
-    "@wordpress/eslint-plugin": "^13.0.0",
+    "@wordpress/eslint-plugin": "^14.0.0",
     "@wwa/rollup-plugin-terser": "^1.0.0",
     "eslint": "^8.0.0",
     "eslint-formatter-gha": "^1.4.1",
