@@ -21,8 +21,15 @@
 		<exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket" />
 		<exclude name="PEAR.Functions.FunctionCallSignature.MultipleArguments" />
 		<exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine" />
-		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
-		<exclude name="WordPress.PHP.DisallowShortTernary.Found"/>
+		<exclude name="Universal.Arrays.DisallowShortArraySyntax.Found" />
+	</rule>
+
+	<rule ref="WordPress.WP.Capabilities">
+		<properties>
+			<property name="custom_capabilities" type="array">
+				<element value="edit_criminals" />
+			</property>
+		</properties>
 	</rule>
 
 	<config name="testVersion" value="7.4-"/>
