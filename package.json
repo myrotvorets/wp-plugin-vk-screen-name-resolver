@@ -15,15 +15,12 @@
     "@myrotvorets/eslint-config-myrotvorets-ts": "^2.9.0",
     "@rollup/plugin-babel": "^6.0.0",
     "@wordpress/api-fetch": "^6.0.0",
-    "@wordpress/eslint-plugin": "^15.0.0",
+    "@wordpress/eslint-plugin": "^16.0.0",
     "@wwa/rollup-plugin-terser": "^1.0.0",
     "eslint": "^8.0.0",
     "eslint-formatter-gha": "^1.4.1",
     "eslint-plugin-disable": "^2.0.3",
     "rollup": "^3.0.0"
-  },
-  "overrides": {
-    "eslint-plugin-prettier": "^5.0.0"
   },
   "repository": {
     "type": "git",
