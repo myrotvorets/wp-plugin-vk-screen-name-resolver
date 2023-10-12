@@ -46,7 +46,7 @@ const callback = (): void => {
 							dst.value = r.message;
 						} else {
 							const { id, type } = r;
-							dst.value = `https://vk.com/${ typeMap.get( type ) || '' }${ id }`;
+							dst.value = `https://vk.com/${ typeMap.get( type ) ?? '' }${ id }`;
 						}
 					} ).catch( ( e: Error | ErrorResponse ) => {
 						dst.value = e.message;
