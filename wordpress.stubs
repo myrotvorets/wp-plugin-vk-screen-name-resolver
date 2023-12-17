@@ -7,6 +7,8 @@ namespace {
 	define( 'ARRAY_A', 'ARRAY_A' );
 	define( 'ARRAY_N', 'ARRAY_N' );
 
+	define( 'ABSPATH', '/wp' );
+
 	class wpdb {
 
 		/** @var string */
