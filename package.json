@@ -20,7 +20,7 @@
     "eslint": "^8.56.0",
     "eslint-formatter-gha": "^1.4.3",
     "eslint-plugin-disable": "^2.0.3",
-    "rollup": "^4.9.5"
+    "rollup": "^4.9.6"
   },
   "repository": {
     "type": "git",
