@@ -52,6 +52,7 @@ final class Admin {
 
 	/**
 	 * @param string $hook_suffix
+	 * @psalm-suppress RiskyTruthyFalsyComparison
 	 */
 	public function admin_enqueue_scripts( $hook_suffix ): void {
 		if (
