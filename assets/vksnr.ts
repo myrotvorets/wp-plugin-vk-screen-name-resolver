@@ -48,8 +48,8 @@ const callback = (): void => {
 							const { id, type } = r;
 							dst.value = `https://vk.com/${ typeMap.get( type ) ?? '' }${ id }`;
 						}
-					} ).catch( ( e: Error | ErrorResponse ) => {
-						dst.value = e.message;
+					} ).catch( ( e: unknown ) => {
+						dst.value = ( e as Error | ErrorResponse ).message;
 					} )
 					.then( () => btn.removeAttribute( 'aria-disabled' ) );
 			}
