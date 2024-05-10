@@ -88,7 +88,7 @@ final class Settings implements ArrayAccess {
 	}
 
 	public function valid(): bool {
-		return ! empty( $this->options['apikey'] );
+		return $this->options['apikey'] !== '';
 	}
 
 	public function get_api_key(): string {
