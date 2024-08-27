@@ -1,6 +1,7 @@
 import type apiFetch from '@wordpress/api-fetch';
 
 declare global {
+	// eslint-disable-next-line sonarjs/class-name
 	interface wp { // NOSONAR
 		apiFetch: typeof apiFetch;
 	}
