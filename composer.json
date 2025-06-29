@@ -20,13 +20,13 @@
 		"johnpbloch/wordpress-core": "^6.4.3",
 		"php-stubs/wordpress-stubs": "^6.4.1",
 		"phpcompatibility/phpcompatibility-wp": "^2.1.4",
-		"psalm/plugin-phpunit": "^0.19.0",
-		"vimeo/psalm": "~6.4.1"
+		"psalm/plugin-phpunit": "^0.19.5",
+		"vimeo/psalm": "^6.5.9"
 	},
 	"config": {
 		"sort-packages": true,
 		"platform": {
-			"php": "8.3.6"
+			"php": "8.3.16"
 		},
 		"allow-plugins": {
 			"composer/package-versions-deprecated": true,
@@ -37,6 +37,6 @@
 	"scripts": {
 		"phpcs": "phpcs",
 		"phpcs:fix": "phpcbf",
-		"psalm": "psalm --long-progress --no-cache"
+		"psalm": "psalm --long-progress --no-cache -m"
 	}
 }

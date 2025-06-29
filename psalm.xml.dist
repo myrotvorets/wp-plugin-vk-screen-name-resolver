@@ -2,7 +2,6 @@
 <psalm
     errorLevel="1"
     resolveFromConfigFile="true"
-    phpVersion="8.3"
     findUnusedPsalmSuppress="true"
     findUnusedCode="true"
     findUnusedBaselineEntry="true"
@@ -16,6 +15,7 @@
         <directory name="views"/>
     </projectFiles>
     <issueHandlers>
+        <MissingOverrideAttribute errorLevel="suppress"/>
         <PossiblyUnusedReturnValue errorLevel="suppress"/>
         <PossiblyUnusedMethod errorLevel="suppress"/>
         <RedundantCast errorLevel="suppress"/>
