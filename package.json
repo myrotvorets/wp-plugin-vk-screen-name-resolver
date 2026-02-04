@@ -17,7 +17,7 @@
     "@wordpress/api-fetch": "^7.0.0",
     "@wordpress/eslint-plugin": "^24.0.0",
     "@wwa/rollup-plugin-terser": "^1.1.2",
-    "eslint": "^8.56.0",
+    "eslint": "^9.0.0",
     "eslint-formatter-gha": "^1.4.3",
     "eslint-plugin-disable": "^2.0.3",
     "rollup": "^4.9.6"
