@@ -13,7 +13,7 @@
     "@babel/preset-modules": "^0.1.6",
     "@babel/preset-typescript": "^7.23.3",
     "@myrotvorets/eslint-config-myrotvorets-ts": "^2.24.0",
-    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-babel": "^7.0.0",
     "@wordpress/api-fetch": "^7.0.0",
     "@wordpress/eslint-plugin": "^24.0.0",
     "@wwa/rollup-plugin-terser": "^1.1.2",
