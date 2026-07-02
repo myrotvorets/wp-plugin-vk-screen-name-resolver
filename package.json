@@ -10,7 +10,7 @@
   "author": "Myrotvorets <support@myrotvorets.center> (https://myrotvorets.center/)",
   "license": "MIT",
   "devDependencies": {
-    "@babel/preset-modules": "^0.1.6",
+    "@babel/preset-modules": "^0.2.0",
     "@babel/preset-typescript": "^7.23.3",
     "@myrotvorets/eslint-config-myrotvorets-ts": "^2.24.0",
     "@rollup/plugin-babel": "^7.0.0",
